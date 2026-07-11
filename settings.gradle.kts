@@ -4,6 +4,7 @@ rootProject.name = "KotlinConfApp"
 
 pluginManagement {
     repositories {
+        mavenLocal()
         google {
             mavenContent {
                 includeGroupAndSubgroups("android")
@@ -20,6 +21,7 @@ pluginManagement {
 
 dependencyResolutionManagement {
     repositories {
+        mavenLocal()
         google {
             mavenContent {
                 includeGroupAndSubgroups("android")
@@ -42,3 +44,5 @@ include(":app:androidApp")
 include(":app:desktopApp")
 include(":app:webApp")
 include(":app:adminApp")
+
+include(":konture-test")
