@@ -5,7 +5,7 @@ plugins {
 
 dependencies {
     // Standard test implementation of the unified Konture assertion library
-    testImplementation("io.github.baole:konture:0.6.7")
+    testImplementation("io.github.baole:konture:0.6.6")
 
     // JUnit 5 test dependencies
     testImplementation("org.junit.jupiter:junit-jupiter:5.11.0")

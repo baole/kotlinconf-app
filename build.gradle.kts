@@ -17,7 +17,7 @@ plugins {
     alias(libs.plugins.jib) apply false
     alias(libs.plugins.googleServices) apply false
     alias(libs.plugins.metro) apply false
-    id("io.github.baole.konture") version "0.6.7"
+    id("io.github.baole.konture") version "0.6.6"
 }
 
 // Pin Node.js to the last 22.x LTS. Node 24/25 prebuilt linux-x64 binaries
